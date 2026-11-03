@@ -1,0 +1,36 @@
+# Secrets & Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Intermediate pipeline caches & extracted staging
+processed_text/
+raw_indexes/
+temp_toc_payload.txt
+extracted_tocs.json
+02.0_subject_ontology_master.json
+05.0_extracted_expert_terms.json
+06.0_index_keyword_density.csv
+07.0_subject_data_dictionary.json
+08.0_index_ontology.json
+09.0_unified_master_ontology.json
+10.0_html_ontology_viewer.html
+
+# Input PDFs (keep directory structure)
+raw_material/*
+!raw_material/.gitkeep
+
+# Operating system & logs
+*.log
+.DS_Store
+Thumbs.db
